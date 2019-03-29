@@ -1,0 +1,60 @@
+#background{
+background-image: url('lg.jpg');
+    height: 504px;
+    width: 896px;
+}
+#hero {
+    background-color: transparent;
+    position: absolute;
+    top: 410px;
+    left: 420px;
+}
+.enemy {
+    background-image: url("enemy.jpg");
+    width: 40px;
+    height: 36px;
+    position: absolute;
+}
+.missle {
+    background-image: url("misle.png");
+    height: 8px;
+    width: 4px;
+    position: absolute;
+}
+
+#missles{
+    height: 504px;
+    width: 896px;
+    position: absolute;
+}
+#enemies{
+    height: 504px;
+    width: 896px;
+    position: absolute;
+}
+.buttons{
+    background-color: #0a0d12;
+    width: 896px;
+}
+button{
+    height: 40px;
+    width: 446px;
+    margin-top: 6px;
+    background-color: #35445e;
+    border: 3px solid #1d2432;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 22px;
+    color: white;
+}
+#explotion{
+    width: 895px;
+    height: 500px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    display: none;
+    top: 10px;
+    z-index: 2;
+    background-image: url("explosion.png");
+}

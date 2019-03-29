@@ -1,0 +1,299 @@
+@media (min-width: 600px) {
+
+    .header {
+        border-bottom: 0px solid #dfd1d2;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        background-image: url('img/redcurt3.jpg');
+        padding-bottom: 0px;
+        padding-top: 9px;
+        padding-left: 15px;
+        position: fixed;
+        z-index: 1;
+    }
+
+    h3 {
+        font-size: 28px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    .meniu {
+        display: flex;
+    }
+
+    .meniu button {
+        width: 130px;
+        text-decoration: none;
+        font-size: 26px;
+        font-family: Roboto, sans-serif;
+        color: #0fa00f;
+        height: 100%;
+        background-color: unset;
+        border: 0px solid #fff;
+    }
+
+    .meniu button:hover {
+        font-size: 32px;
+        font-weight: bold;
+        font-family: Roboto, sans-serif;
+        color: #d6220c;
+    }
+
+    .mb:hover .pt {
+        display: block;
+        font-family: Roboto, sans-serif;
+        position: relative;
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+
+    .pt:hover {
+        text-decoration: none;
+        font-weight: bold;
+        color: #d6220c;
+        position: relative;
+    }
+
+    .pt {
+        height: 30px;
+        width: 110px;
+        font-size: 14px;
+        padding-top: 15px;
+        padding-left: 15px;
+        background-image: url('img/redcurt3.jpg');
+        display: none;
+        color: #0fa00f;
+        z-index: 1;
+    }
+
+    .icons {
+        width: 10%;
+        display: flex;
+        padding: 15px 45px 15px 15px;
+        justify-content: space-around;
+    }
+    .icons img{
+        width: 30px;
+    }
+    .icons a:hover {
+        background-color: red;
+        transform: rotate(360deg);
+        transition-duration: 1s;
+    }
+
+    .main {
+        height: 100%;
+        width: 90%;
+        display: flex;
+        font-size: 18px;
+        flex-direction: column;
+        text-align: justify;
+        margin: 15px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+
+}
+
+@media (max-width: 600px) {
+    .header {
+        border-bottom: 0px solid #dfd1d2;
+        width: 100%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        background-image: url('img/redcurt3.jpg');
+        padding-bottom: 0px;
+        padding-top: 9px;
+        padding-left: 5px;
+        position: fixed;
+        z-index: 1;
+    }
+
+    h3 {
+        font-size: 18px;
+        padding: 3px;
+        text-align: center;
+    }
+
+    .meniu {
+        display: flex;
+        justify-content: start;
+    }
+
+    .meniu a, .meniu button {
+        text-decoration: none;
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        color: #0fa00f;
+        height: 100%;
+        background-color: unset;
+        border: 0px solid #fff;
+    }
+
+    .meniu a:hover {
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        color: #d6220c;
+    }
+
+    .meniu button:hover {
+        font-size: 16px;
+        font-family: Roboto, sans-serif;
+        color: #d6220c;
+    }
+
+    .icons {
+        width: 15%;
+        display: flex;
+        justify-content: space-around;
+        padding: 20px 15px 2px 35px;
+
+    }
+    .icons img{
+        width: 20px;
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main {
+        height: 100%;
+        width: 90%;
+        display: flex;
+        font-size: 12px;
+        flex-direction: column;
+        text-align: justify;
+        margin: 10px;
+    }
+
+}
+
+main {
+    padding-top: 65px;
+    display: flex;
+    flex-direction: row;
+}
+
+.allHiden {
+    height: 700px;
+    width: 90%;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    background-color: #f3ffe4;
+    /*background-image: url("img/zigzag2.png");*/
+}
+
+p {
+    margin: 5px;
+}
+
+.main {
+    display: none;
+}
+
+#main {
+    display: flex;
+}
+
+#main img {
+    width: 40px;
+    padding-left: 5px;
+}
+
+#main img:hover {
+    padding-left: 40px;
+    width: 290px;
+    transition-duration: 1s;
+}
+
+.sideBar {
+    height: 700px;
+    width: 5%;
+    background-image: url("img/redcurt3.jpg");
+}
+
+.colum {
+    height: 100px;
+    width: 80%;
+    background-color: white;
+}
+
+footer {
+    /*background-color: #becfc7;*/
+    background-image: url("img/zigzag2.png");
+    height: 30px;
+    color: red;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.games {
+    width: 300px;
+    height: 260px;
+    background-color: #580404;
+    border: 10px outset #f64405;
+    color: white;
+    border-radius: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+}
+
+.games img {
+    width: 120px;
+
+}
+
+.games img:hover {
+    width: 180px;
+    transition-duration: 1s;
+
+}
+
+
+#shop a, #shop p {
+    padding: 5px;
+    margin: 15px;
+}
+
+#shop a:hover {
+    background-color: #580404;
+    color: white;
+    transition-duration: 1s;
+}
+
+/*fishing*/
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 250px;
+    height: 400px;
+}
+
+.fishMain {
+    padding-top: 70px;
+    background-color: #f3ffe4;
+}
+
+embed {
+    padding-left: 15px;
+}
