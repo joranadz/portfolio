@@ -113,13 +113,12 @@
     }
 
     .stiker {
-        width: 350px;
-        height: 80px;
+        width: 50%;
+        height: 180px;
+        margin-left: 25%;
         display: flex;
-        margin-left: 30%;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
+        flex-direction: row;
+        justify-content: space-between;
         padding: 10px;
     }
 
